@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Flexbox pour centrer */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  min-height: 100vh;
+}
+
+.cv-container {
+  background-color: white;
+  width: 800px; /* Largeur du CV */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Légère ombre pour l'effet */
+  border-radius: 10px;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 2px solid rgb(0, 77, 13);
+}
+
+.header-informations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-summary h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.header-summary p {
+  font-size: 1rem;
+  color: rgb(100, 100, 100);
+}
+
+.columns {
+  display: flex;
+  gap: 20px; /* Espacement entre les deux colonnes */
+  margin-top: 20px;
+}
+
+.gauche,
+.droite {
+  background-color: rgb(240, 240, 240);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.gauche {
+  width: 50%; /* Largeur égale pour chaque colonne */
+}
+
+.droite {
+  width: 50%;
+}
+
+.title {
+ font
+}
+
+.coordonnee {
+  background-color: rgb(0, 77, 13);
+  color: rgb(255, 255, 255);
+  width: 400px;
+  padding : 20px;
+  border-radius: 10px;
+  text-align : :left
+}
+
+.coordonnee a {
+  color: white;
+}
+
+.bloc {
+  background-color: rgb(0, 77, 13);
+  height: 300px;
+  width: 50px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: rgb(100, 100, 100);
+}
